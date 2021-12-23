@@ -1,0 +1,59 @@
+
+
+.heading1 {
+    color: #4D4D4D;
+}
+
+.card {
+    background: #EDEDED;
+    border-radius: 5%;
+    transition: 400ms ease-in-out;
+    animation-delay: 100ms;
+}
+
+.card:hover {
+    background-image: linear-gradient(to bottom, #00DDC6, #00AEE1);
+    transform: scale(1.04);
+}
+
+.card:hover path {
+    fill: white !important
+}
+
+.card:hover .cardHeading, .card:hover .paragraph, .card:hover .linkText {
+    color: white;
+}
+
+
+.linkText {
+    color: #00AEE1;
+}
+
+.paragraph {
+    font-size: 15px !important;
+    color: #4D4D4D;
+}
+
+.cardHeading {
+    font-size: 24px;
+    font-weight: bold !important;
+    color: #4D4D4D;
+    margin-bottom: 20px !important;
+}
+
+.button {
+    width: 350px;
+    height: 38px;
+    border-radius: 50px 50px;
+    border: none;
+    background-color: #4D4D4D !important;
+    color: white !important;
+    font-weight: bold;
+    font-size: 16px !important;
+    padding: 6px 6px !important;
+    transition: 400ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}

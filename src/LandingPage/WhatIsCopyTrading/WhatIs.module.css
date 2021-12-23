@@ -1,0 +1,135 @@
+.heading1 {
+    color        : #4D4D4D;
+}
+
+.button {
+    border-radius   : 50px 50px;
+    border          : none;
+    background-color: #4D4D4D !important;
+    color           : white !important;
+    font-weight     : bold;
+    font-size       : 16px !important;
+    padding         : 6px 6px !important;
+    transition      : 400ms linear;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+.Screens {
+    min-height: 400px;
+}
+
+
+
+.backgroundImage {
+    background               : linear-gradient(to right, #00AEE1, #00DDC6);
+    position                 : absolute;
+    width                    : 47.92%;
+    height                   : 100%;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius   : 7%;
+    transition               : 300ms linear;
+    top                      : 0;
+    right                    : 0;
+}
+
+.backgroundImage:hover, .pc2:hover, .notepad:hover, .mobile:hover {
+    transform: scale(1.04);
+}
+
+.pc1 {
+    width     : 30%;
+    height    : 70%;
+    position  : absolute;
+    top       : 27%;
+    right      : 19%;
+    transition: 300ms linear;
+}
+
+.hoverImg {
+    position  : absolute;
+    width     : 18%;
+    height    : 18%;
+    transition: 400ms linear;
+    opacity   : 0;
+    top       : 50%;
+    right     : 24%;
+}
+
+.pc1:hover + .hoverImg{
+    opacity: 1 !important;
+}
+
+.pc2 {
+    width     : 25%;
+    height    : 40%;
+    position  : absolute;
+    right     : 22px;
+    transition: 300ms linear;
+    bottom    : 18px;
+}
+.notepad {
+    width     : 10%;
+    height    : 39%;
+    position  : absolute;
+    bottom    : 35px;
+    transition: 300ms linear;
+    right      : 41%;
+}
+
+.mobile {
+    width     : auto;
+    height    : 23%;
+    position  : absolute;
+    transition: 300ms linear;
+    bottom    : 11px;
+    right: 49%;
+}
+
+@media (max-width: 992px) {
+    .Screens {
+        min-height: 649px;
+        position  : relative;
+    }
+
+    .backgroundImage {
+        width: 90%;
+        top  : 0;
+        right: 0;
+    }
+
+    .pc1 {
+        width : 83%;
+        height: 70%;
+        top   : 25%;
+        left  : 5%;
+    }
+
+    .hoverImg {
+        top   : 48%;
+        right : 37%;
+        height: 20%;
+        width : 37%
+    }
+
+    .pc2 {
+        right : 2%;
+        bottom: 3%;
+        height: 33%;
+        width : 50%
+    }
+
+
+    .notepad {
+        bottom: 5%;
+        left  : 0%;
+        height: 33%;
+        width : 24%
+    }
+
+    .mobile {
+        bottom: 0;
+        left  : -2%;
+    }
+}

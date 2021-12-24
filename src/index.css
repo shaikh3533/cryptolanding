@@ -1,7 +1,7 @@
 html,
 body,
 #root {
-  min-height : 100vh;
+  min-height: 100vh;
   font-family: Montserrat;
 }
 
@@ -12,7 +12,7 @@ body,
 
 .maxWidth {
   max-width: 1280px;
-  margin   : 0 auto;
+  margin: 0 auto;
 }
 
 button,
@@ -92,7 +92,7 @@ select {
 }
 
 .hoverBig button:hover {
-  transform : scale(1.1);
+  transform: scale(1.1);
   transition: 400ms linear;
 }
 
@@ -103,26 +103,26 @@ select {
 /* Home */
 
 .linesBackGround {
-  background-image   : url('./Assets/img/Lines.png');
+  background-image: url('./Assets/img/Lines.png');
   background-position: top right;
-  background-size    : auto;
-  background-repeat  : no-repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .Section1 {
-  width   : 100%;
+  width: 100%;
   position: relative;
 }
 
 .Background {
-  width              : 100%;
-  height             : 85vh;
-  min-width          : 90%;
-  background-image   : url('./Assets/img/461.png');
+  width: 100%;
+  height: 85vh;
+  min-width: 90%;
+  background-image: url('./Assets/img/461.png');
   background-position: top right;
-  background-size    : auto;
-  background-repeat  : no-repeat;
-  transition         : all 1s;
+  background-size: auto;
+  background-repeat: no-repeat;
+  transition: all 1s;
 }
 
 .hov.Background:hover {
@@ -130,454 +130,467 @@ select {
 }
 
 .content {
-  height  : 50px;
+  height: 50px;
   position: absolute;
-  top     : 0;
+  top: 0;
 }
 
 .container-right {
   padding-left: 15px;
   /*-> Add the default container padding on the left */
-  margin-left : auto;
+  margin-left: auto;
   /*-> Align your container to the right*/
-  width       : calc(1199px + (50% - 1199px / 2));
-      /*-> The container width is based on the current breakpoint bootstrap container width*/
-  }
+  width: calc(1199px + (50% - 1199px / 2));
+  /*-> The container width is based on the current breakpoint bootstrap container width*/
+}
 
-  .HalfScreen {
-    max-width: 40ch;
-  }
+.HalfScreen {
+  max-width: 40ch;
+}
 
-  .Round {
-    border-radius: 1.25rem;
-  }
+.Round {
+  border-radius: 1.25rem;
+}
 
-  .R25 {
-    border-radius: 25px !important;
-  }
+.R25 {
+  border-radius: 25px !important;
+}
 
-  .combineButton {
-    border-radius   : 50px;
-    background-color: rgb(240, 242, 245);
-  }
+.combineButton {
+  border-radius: 50px;
+  background-color: rgb(240, 242, 245);
+}
 
 
-  .RadioToButton {
-    list-style-type: none;
-  }
+.RadioToButton {
+  list-style-type: none;
+}
 
-  .ant-back-top-icon path{
-    color: white !important;
-  }
+.ant-back-top-icon path {
+  color: white !important;
+}
 
-  /* Register */
+/* Register */
 
-  .LineBackground {
-    background-image   : url(./Assets/img/LineBackground.svg);
-    background-position: center;
-    background-size    : cover;
-    background-repeat  : no-repeat;
-    height             : 90vh;
-    min-width          : 90%;
-  }
+.LineBackground {
+  background-image: url(./Assets/img/LineBackground.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  min-width: 90%;
+}
 
-  .worldBackGround {
-    background-image   : url(./Assets/img/bgWorldMap.png);
-    background-position: center;
-    background-size    : cover;
-    background-repeat  : no-repeat;
-  }
+.worldBackGround {
+  background-image: url(./Assets/img/bgWorldMap.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  .DuallinesBackGround {
-    background-image   : url(./Assets/img/LeftLines.png), url(./Assets/img/RightLines.png);
-    background-position: right top, right bottom;
-    background-repeat  : no-repeat, no-repeat;
-    background-size    : cover;
+.DuallinesBackGround {
+  background-image: url(./Assets/img/LeftLines.png), url(./Assets/img/RightLines.png);
+  background-position: right top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
 
-  }
+}
 
-  .customInput,
-  .react-tel-input .form-control,
-  .react-tel-input .flag-dropdown,
-  .CountrySelect .css-1s2u09g-control,
-  .CountrySelect .css-1pahdxg-control,
-  select {
-    background-color: #f2f2f2;
-    border-radius   : 25px !important;
-    border          : 0px !important;
-    min-height      : 40px !important;
-  }
+.customInput,
+.react-tel-input .form-control,
+.react-tel-input .flag-dropdown,
+.CountrySelect .css-1s2u09g-control,
+.CountrySelect .css-1pahdxg-control,
+select {
+  background-color: #f2f2f2;
+  border-radius: 25px !important;
+  border: 0px !important;
+  min-height: 40px !important;
+}
 
-  .react-tel-input .flag-dropdown,
-  .Dark {
-    background-color: #c7c7c7 !important;
-  }
+.react-tel-input .flag-dropdown,
+.Dark {
+  background-color: #c7c7c7 !important;
+}
 
-  .react-tel-input .form-control {
-    background-color: #f2f2f2 !important;
-    line-height     : inherit !important;
-    width           : auto !important;
-  }
+.react-tel-input .form-control {
+  background-color: #f2f2f2 !important;
+  line-height: inherit !important;
+  width: auto !important;
+}
 
-  .RadioToButton label,
-  .btn-grad {
-    /* background-color  : #AFAFAF; */
-    text-align        : center;
-    text-transform    : uppercase;
-    /* transition     : 0.5s; */
-    border-radius     : 25px;
-    font-weight       : 600;
-    padding           : 7px 25px;
-  }
+.RadioToButton label,
+.btn-grad {
+  /* background-color  : #AFAFAF; */
+  text-align: center;
+  text-transform: uppercase;
+  /* transition     : 0.5s; */
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 7px 25px;
+}
 
-  .btn-grad {
-    color: white !important;
-  }
+.btn-grad {
+  color: white !important;
+}
 
-  .RadioToButton input {
-    display: none;
-  }
+.RadioToButton input {
+  display: none;
+}
 
-  .RadioToButton label {
-    border       : none;
-    border-radius: 25px;
-    width        : 100%;
-    color        : #4f4f4f;
-    font-weight  : 400;
-  }
+.RadioToButton label {
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  color: #4f4f4f;
+  font-weight: 400;
+}
 
-  .RadioToButton input:checked+label,
-  .Checked+label,
-  .btn-grad,
-  .Gradient,
-  .btn:focus {
-    background-image: linear-gradient(to right,
+.RadioToButton input:checked+label,
+.Checked+label,
+.btn-grad,
+.Gradient,
+.btn:focus {
+  background-image: linear-gradient(to right,
       #00ddc6 0%,
       #00aee1 51%,
       #00ddc6 100%);
-    /* width           : 100%; */
-    background-size: 200% auto;
-  }
+  /* width           : 100%; */
+  background-size: 200% auto;
+}
 
-  .RadioToButton input:checked+label {
-    color: white !important;
-  }
+.RadioToButton input:checked+label {
+  color: white !important;
+}
 
-  .Gradient-05 {
-    background-image: linear-gradient(to right,
+.Gradient-05 {
+  background-image: linear-gradient(to right,
       rgb(0, 174, 225, 0.5),
       rgb(0, 221, 198, 0.5));
+}
+
+.GreyBack {
+  background-color: #ececec;
+}
+
+.bg-mercury {
+  background-color: #ebebeb;
+}
+
+.bg-white-30 {
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.bg-white-50 {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.full button {
+  width: 100%;
+}
+
+input:focus {
+  border: 0px;
+}
+
+/* Exchange */
+
+.formTable td {
+  padding: 0 12px;
+}
+
+.formTable .w-95 {
+  width: 95%;
+}
+
+.Pencil {
+  background-image: url(./Assets/img/Pencil.png);
+  background-position: 93%;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  background-color: #ececec;
+}
+
+.Bg-Nobel {
+  background-color: #959595;
+}
+
+/* for scroll bar */
+.ScrollBar {
+  padding-right: 10px;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.scroll {
+  height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #afafaf;
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 10px;
+  height: 20px;
+}
+
+.RadiusTop26 {
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+}
+
+.RadiusBottom26 {
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+  overflow: hidden;
+}
+
+.Navi.active {
+  background-color: #07bedb !important;
+  opacity: 1;
+}
+
+.Navi.active button {
+  background-image: linear-gradient(to Right, #00ddc6, #00aee1);
+}
+
+.Buy-Btn {
+  border: 0px;
+  background-image: linear-gradient(to Right, #00ddc6, #00b438);
+  border-radius: 50px;
+  color: white;
+}
+
+.Sell-Btn {
+  border: 0px;
+  background-image: linear-gradient(to Right, #ce0023, #f5565c);
+  border-radius: 50px;
+  color: white;
+}
+
+.Green {
+  color: #00b438;
+}
+
+.Red {
+  color: #ce0023;
+}
+
+.C-Table th,
+.C-Table td {
+  text-align: center !important;
+}
+
+.Cerulean {
+  color: #00aee1;
+}
+
+.txt-gallery {
+  color: #ececec;
+}
+
+.txt-gry {
+  color: #959595;
+}
+
+.dropdown-menu {
+  background-color: #ececec;
+  width: 75%;
+  border-radius: 25px;
+  padding: 15px;
+  border: 0px;
+  box-shadow: 3px 3px 6px rgb(0, 0, 0, 0.3);
+}
+
+.resizeNone {
+  resize: none !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.ant-upload-list {
+  display: none;
+}
+
+.button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.PostImg {
+  height: 400px !important;
+  object-fit: cover;
+}
+
+.bg-Grey {
+  background-color: #afafaf;
+}
+
+.text-white::placeholder {
+  color: White;
+}
+
+.LightGrey {
+  background-color: #f2f2f2 !important;
+}
+
+.text-black {
+  color: Black;
+}
+
+.bg-LightRed {
+  background-color: #f0f0f0;
+}
+
+.center::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  text-align: center;
+  opacity: 1;
+  /* Firefox */
+}
+
+input[type='checkbox'].RoundChk {
+  display: none;
+}
+
+input[type='checkbox'].RoundChk+span:before {
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #f0f0f0;
+  content: '';
+  display: inline-block;
+  margin: 0 16px 0 0;
+  padding: 0;
+  vertical-align: top;
+  border-radius: 50%;
+}
+
+input[type='checkbox'].RoundChk:checked+span:before {
+  background-image: linear-gradient(to Right, #00ddc6, #00aee1);
+  box-shadow: inset 0px 0px 0px 1px #fff;
+  color: #333;
+  content: '';
+  text-align: center;
+  border-radius: 50%;
+}
+
+input[type='checkbox'].RoundChk:focus+span::before {
+  outline: 0;
+}
+
+img.images {
+  vertical-align: -webkit-baseline-middle !important;
+}
+
+.lngTck:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #99a1a7;
+}
+
+.cntrSpin .ant-spin.ant-spin-spinning {
+  margin: 0 auto;
+  display: block !important;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  /* for screen greater than 992px */
+  .F15v-07v {
+    font-size: 0.7vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* for screen smaller than 767px */
+  .Font2v {
+    font-size: 2vw;
   }
 
-  .GreyBack {
-    background-color: #ececec;
+  .F14-3w {
+    font-size: 3vw;
   }
+}
 
-  .bg-mercury {
-    background-color: #ebebeb;
-  }
+.dark-mode {
+  filter: invert(1) hue-rotate(180deg);
+}
 
-  .bg-white-30 {
-    background-color: rgb(255, 255, 255, 0.3);
-  }
+.dark-mode img,
+.dark-mode .text-white,
+.dark-mode .Sell-Btn,
+.dark-mode .Buy-Btn {
+  filter: invert(1) hue-rotate(180deg);
+}
 
-  .bg-white-50 {
-    background-color: rgb(255, 255, 255, 0.5);
-  }
+.dark-mode .invert,
+.dark-mode .AntiInvert,
+.dark-mode .emoji-mart-category-list {
+  filter: invert(1) hue-rotate(180deg);
+}
 
-  .full button {
-    width: 100%;
-  }
+.dark-mode .btn-grad,
+.dark-mode .RadioToButton input:checked+label {
+  color: black !important;
+}
 
-  input:focus {
-    border: 0px;
-  }
+/* forgot password */
+.forgot-color {
+  background-color: #ececec;
+}
 
-  /* Exchange */
+.edge {
+  border-radius: 8px;
+}
 
-  .formTable td {
-    padding: 0 12px;
-  }
+.input-border {
+  border: 0px !important;
+  border-radius: 15px;
+}
 
-  .formTable .w-95 {
-    width: 95%;
-  }
-
-  .Pencil {
-    background-image   : url(./Assets/img/Pencil.png);
-    background-position: 93%;
-    background-repeat  : no-repeat;
-    border-radius      : 25px;
-    background-color   : #ececec;
-  }
-
-  .Bg-Nobel {
-    background-color: #959595;
-  }
-
-  /* for scroll bar */
-  .ScrollBar {
-    padding-right: 10px;
-    height       : 300px;
-    overflow-y   : auto;
-    overflow-x   : hidden;
-  }
-
-  .scroll {
-    height    : 75vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-
-  ::-webkit-scrollbar {
-    width: 5px;
-  }
-
-  /* Track */
-
-  ::-webkit-scrollbar-track {
-    background   : #afafaf;
-    border-radius: 10px;
-  }
-
-  /* Handle */
-
-  ::-webkit-scrollbar-thumb {
-    background   : #ffffff;
-    border-radius: 10px;
-    height       : 20px;
-  }
-
-  .RadiusTop26 {
-    border-top-left-radius : 26px;
-    border-top-right-radius: 26px;
-  }
-
-  .RadiusBottom26 {
-    border-bottom-left-radius : 26px;
-    border-bottom-right-radius: 26px;
-    overflow                  : hidden;
-  }
-
-  .Navi.active {
-    background-color: #07bedb !important;
-    opacity         : 1;
-  }
-
-  .Navi.active button {
-    background-image: linear-gradient(to Right, #00ddc6, #00aee1);
-  }
-
-  .Buy-Btn {
-    border          : 0px;
-    background-image: linear-gradient(to Right, #00ddc6, #00b438);
-    border-radius   : 50px;
-    color           : white;
-  }
-
-  .Sell-Btn {
-    border          : 0px;
-    background-image: linear-gradient(to Right, #ce0023, #f5565c);
-    border-radius   : 50px;
-    color           : white;
-  }
-
-  .Green {
-    color: #00b438;
-  }
-
-  .Red {
-    color: #ce0023;
-  }
-
-  .C-Table th,
-  .C-Table td {
-    text-align: center !important;
-  }
-
-  .Cerulean {
-    color: #00aee1;
-  }
-
-  .txt-gallery {
-    color: #ececec;
-  }
-
-  .txt-gry {
-    color: #959595;
-  }
-
-  .dropdown-menu {
-    background-color: #ececec;
-    width           : 75%;
-    border-radius   : 25px;
-    padding         : 15px;
-    border          : 0px;
-    box-shadow      : 3px 3px 6px rgb(0, 0, 0, 0.3);
-  }
-
-  .resizeNone {
-    resize: none !important;
-  }
-
-  .w-35 {
-    width: 35% !important;
-  }
-
-  .ant-upload-list {
-    display: none;
-  }
-
-  .button {
-    background: transparent;
-    outline   : none;
-    border    : none;
-  }
-
-  .PostImg {
-    height    : 400px !important;
-    object-fit: cover;
-  }
-
-  .bg-Grey {
-    background-color: #afafaf;
-  }
-
-  .text-white::placeholder {
-    color: White;
-  }
-
-  .LightGrey {
-    background-color: #f2f2f2 !important;
-  }
-
-  .text-black {
-    color: Black;
-  }
-
-  .bg-LightRed {
-    background-color: #f0f0f0;
-  }
-
-  .center::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color     : white;
-    text-align: center;
-    opacity   : 1;
-    /* Firefox */
-  }
-
-  input[type='checkbox'].RoundChk {
-    display: none;
-  }
-
-  input[type='checkbox'].RoundChk+span:before {
-    width         : 12px;
-    height        : 12px;
-    border        : 1.5px solid #f0f0f0;
-    content       : '';
-    display       : inline-block;
-    margin        : 0 16px 0 0;
-    padding       : 0;
-    vertical-align: top;
-    border-radius : 50%;
-  }
-
-  input[type='checkbox'].RoundChk:checked+span:before {
-    background-image: linear-gradient(to Right, #00ddc6, #00aee1);
-    box-shadow      : inset 0px 0px 0px 1px #fff;
-    color           : #333;
-    content         : '';
-    text-align      : center;
-    border-radius   : 50%;
-  }
-
-  input[type='checkbox'].RoundChk:focus+span::before {
-    outline: 0;
-  }
-
-  img.images {
-    vertical-align: -webkit-baseline-middle !important;
-  }
-
-  .lngTck:checked:after {
-    content  : '\2714';
-    font-size: 14px;
-    position : absolute;
-    top      : 0px;
-    left     : 3px;
-    color    : #99a1a7;
-  }
-
-  .cntrSpin .ant-spin.ant-spin-spinning {
-    margin : 0 auto;
-    display: block !important;
-  }
-
-
-  @media only screen and (min-width: 992px) {
-
-    /* for screen greater than 992px */
-    .F15v-07v {
-      font-size: 0.7vw;
-    }
-  }
-
-  @media only screen and (max-width: 767px) {
-
-    /* for screen smaller than 767px */
-    .Font2v {
-      font-size: 2vw;
-    }
-
-    .F14-3w {
-      font-size: 3vw;
-    }
-  }
-
-  .dark-mode {
-    filter: invert(1) hue-rotate(180deg);
-  }
-
-  .dark-mode img,
-  .dark-mode .text-white,
-  .dark-mode .Sell-Btn,
-  .dark-mode .Buy-Btn {
-    filter: invert(1) hue-rotate(180deg);
-  }
-
-  .dark-mode .invert,
-  .dark-mode .AntiInvert,
-  .dark-mode .emoji-mart-category-list {
-    filter: invert(1) hue-rotate(180deg);
-  }
-
-  .dark-mode .btn-grad,
-  .dark-mode .RadioToButton input:checked+label {
-    color: black !important;
-  }
-
-  /* forgot password */
-  .forgot-color {
-    background-color: #ececec;
-  }
-
-  .edge {
-    border-radius: 8px;
-  }
-
-  .input-border {
-    border       : 0px !important;
-    border-radius: 15px;
-  }
-
-  .forgot-button {
-    background-image: linear-gradient(to right,
+.forgot-button {
+  background-image: linear-gradient(to right,
       #00ddc6 0%,
       #00aee1 51%,
       #00ddc6 100%);
-    border-radius  : 5px;
-    border         : 0px !important;
-    background-size: 200% auto;
-    color          : white;
+  border-radius: 5px;
+  border: 0px !important;
+  background-size: 200% auto;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+
+  /* for screen smaller than 767px */
+  .Background {
+    background-size: contain;
+    opacity: 0.5;
   }
+}
+
+.t-shadow {
+  text-shadow: 0px 0px 6px #ffffff;
+}

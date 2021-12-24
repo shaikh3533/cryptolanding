@@ -1,0 +1,230 @@
+.margin {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.heading1 {
+    font-size: 35px;
+    font-weight: 900 !important;
+    color: #4D4D4D;
+    margin-bottom: 20px !important;
+}
+
+.bgDiv {
+    background: linear-gradient(to bottom, #00AEE1, #00DDC6);
+    display: flex;
+    flex-direction: column;
+    width: 1230px;
+    padding-right: 150px;
+    height: 450px;
+    margin-top: 100px;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.computer {
+    margin-top: -50px;
+    width: 700px;
+    position: relative;
+}
+
+.ChartScreen {
+    margin-top: 10px;
+    width: 555px;
+    border-radius: 5px;
+    margin-left: -627px;
+    margin-top: -37px;
+    position: absolute;
+    opacity: 1;
+    animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.DataScreen {
+    margin-top: 10px;
+    width: 555px;
+    border-radius: 5px;
+    margin-left: -627px;
+    margin-top: -37px;
+    position: absolute;
+    opacity: 1;
+    animation: fadeIn linear 1s;
+}
+
+.FeedScreen {
+    margin-top: 10px;
+    width: 555px;
+    border-radius: 5px;
+    margin-left: -627px;
+    margin-top: -37px;
+    position: absolute;
+    opacity: 1;
+    animation: fadeIn linear 1s;
+}
+
+.TradersScreen {
+    margin-top: 10px;
+    width: 555px;
+    border-radius: 5px;
+    margin-left: -627px;
+    margin-top: -37px;
+    position: absolute;
+    opacity: 1;
+    animation: fadeIn linear 1s;
+}
+
+.div1 {
+    margin-left: -25px;
+}
+
+.button1 {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: right;
+    width: 230px;
+    height: 150px;
+    margin-left: -140px;
+    margin-top: 10px;
+    position: absolute;
+    transition: 300ms linear;
+}
+
+.button1:focus {
+    background: white !important;
+    color: #4D4D4D;
+    width: 190px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 30px;
+    margin-left: -80px;
+    margin-top: 100px;
+    position: absolute;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.div2 {
+    margin-left: -25px;
+}
+
+.button2 {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: right;
+    width: 230px;
+    height: 150px;
+    margin-left: -140px;
+    margin-top: 170px;
+    position: absolute;
+    transition: 300ms linear;
+}
+
+.button2:focus {
+    background: #EDEDED;
+    color: #4D4D4D;
+    width: 190px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 30px;
+    margin-left: -80px;
+    margin-top: 200px;
+    position: absolute;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+
+.button3 {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    padding-left: 10px;
+    text-align: left;
+    width: 230px;
+    height: 150px;
+    margin-left: 630px;
+    margin-top: 10px;
+    position: absolute;
+    transition: 300ms linear;
+}
+
+.button3:focus {
+    background: #EDEDED;
+    color: #4D4D4D;
+    width: 190px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 630px;
+    margin-top: 100px;
+    position: absolute;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.button4 {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    padding-left: 10px;
+    text-align: left;
+    width: 230px;
+    height: 150px;
+    margin-left: 630px;
+    margin-top: 170px;
+    position: absolute;
+    transition: 300ms linear;
+
+}
+
+.button4:focus {
+    background: #EDEDED;
+    color: #4D4D4D;
+    width: 190px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 630px;
+    margin-top: 200px;
+    position: absolute;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.focus4 {
+    background: #EDEDED;
+    color: #4D4D4D;
+    width: 190px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 630px;
+    margin-top: 200px;
+    position: absolute;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.button4:focus .ChartScreen {
+    opacity: 1;
+}

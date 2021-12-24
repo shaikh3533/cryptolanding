@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import classes from './Home.module.css'
 import CopyTrading from './CopyTrading';
 import AlreadyDone from './AlreadyDone';
@@ -9,7 +8,9 @@ import Portfolio from './Portfolio';
 import Influencers from './Influencers';
 import Success from './Success';
 import FAQ from './FAQs';
-// import { BackTop } from 'antd';
+import FavTrader from './FavTrader';
+import Pros from './Pros';
+import HowItWorks from './HowItWorks';
 
 const Home = () => {
 
@@ -66,7 +67,28 @@ const Home = () => {
                 <div className='linesBackGround'>
                     <div className='Section5 my-3'>
                         <div className="container my-5">
+                            <FavTrader />
+                        </div>
+                    </div>
+                </div>
+                <div className='linesBackGround'>
+                    <div className='Section5 my-3'>
+                        <div className="container my-5">
+                            <Pros />
+                        </div>
+                    </div>
+                </div>
+                <div className='linesBackGround'>
+                    <div className='Section5 my-3'>
+                        <div className="container my-5">
                             <Portfolio />
+                        </div>
+                    </div>
+                </div>
+                <div className='linesBackGround'>
+                    <div className='Section5 my-3'>
+                        <div className="container my-5">
+                            <HowItWorks />
                         </div>
                     </div>
                 </div>
